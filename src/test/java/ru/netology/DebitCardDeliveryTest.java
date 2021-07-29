@@ -1,3 +1,5 @@
+package ru.netology;
+
 import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -43,7 +45,6 @@ public class DebitCardDeliveryTest {
         form.$$("[role=button]").find(exactText("Забронировать")).click();
         $("[data-test-id='notification'] .notification__content").shouldBe(visible, Duration.ofSeconds(15)).
                 shouldHave(exactText("Встреча успешно забронирована на " + DeliveryDate(6)));
-
     }
 
     @Test
