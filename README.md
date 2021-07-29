@@ -1,0 +1,1 @@
+[![Build status](https://ci.appveyor.com/api/projects/status/pm975xijvoihnwbo?svg=true)](https://ci.appveyor.com/project/Perepadin/debit-card-delivery)
